@@ -1,18 +1,47 @@
-# OpenLayers + Vite
+# OpenLayers
 
 This example demonstrates how the `ol` package can be used with [Vite](https://vitejs.dev/).
 
-To get started, run the following (requires Node 14+):
+Test Demo:
+1. In location of your choice create directory. Download zip file from repository. In directory create new directory and inside unzip content of "my-app-main" from inside of zip file. (folder should have files .gitignore index.html main.js etc... after extraction). 
 
-    npx create-ol-app my-app --template vite
+2. Open terminal and navigate to first directory that you have created, not the one with extracted files.
 
-Then change into your new `my-app` directory and start a development server (available at http://localhost:5173):
 
-    cd my-app
+3. Inside of that directory create python virtual environment using following line
+
+    python -m venv <name_of_virtual_environment>
+
+4. activate virtual environment with command:
+
+    <name_of_virtual_environment>\Scripts\activate
+
+5. install node environment for python:
+
+    pip install nodeenv
+
+6. after installation run command
+
+    nodeenv -p
+
+7. After instalation verify that you have installed version of npm with command:
+
+    npm --version
+
+8. Create node virtual environment:
+
+    ndoeenv <name_of_environment>
+
+9. Activate new environment:
+    <name_of_environment>\Scripts\activate
+
+10. Now navigate to folder where you have extracted downloaded project from gitHub and run commands:
+    
+    npm install
+    npm update
+
+11. run npm server
+
     npm start
 
-To generate a build ready for production:
-
-    npm run build
-
-Then deploy the contents of the `dist` directory to your server.  You can also run `npm run serve` to serve the results of the `dist` directory for preview.
+12. open by pressing: o + Enter
