@@ -30,7 +30,7 @@ Test Demo:
 
 8. Create node virtual environment:
 
-    nodeenv <name_of_environment>
+    ```nodeenv <name_of_environment>
 
 9. Activate new environment:
     <name_of_environment>\Scripts\activate
