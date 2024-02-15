@@ -30,18 +30,18 @@ Test Demo:
 
 8. Create node virtual environment:
 
-    ndoeenv <name_of_environment>
+    nodeenv <name_of_environment>
 
 9. Activate new environment:
     <name_of_environment>\Scripts\activate
 
 10. Now navigate to folder where you have extracted downloaded project from gitHub and run commands:
     
-    npm install
-    npm update
+    `npm install`
+    `npm update`
 
-11. run npm server
+11. Run npm server
 
     npm start
 
-12. open by pressing: o + Enter
+12. Open demo by pressing: o + Enter
