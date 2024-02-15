@@ -9,25 +9,25 @@ Test Demo:
 
 
 3. Inside of that directory create python virtual environment using following line
-
+    ```
     python -m venv <name_of_virtual_environment>
-
+    ```
 4. activate virtual environment with command:
-
+    ```
     <name_of_virtual_environment>\Scripts\activate
-
+    ```
 5. install node environment for python:
-
+    ```
     pip install nodeenv
-
+    ``` 
 6. after installation run command
-
+    ```
     nodeenv -p
-
+    ```
 7. After instalation verify that you have installed version of npm with command:
-
+    ```
     npm --version
-
+    ```
 8. Create node virtual environment:
 
     ```
@@ -35,15 +35,21 @@ Test Demo:
     ```
 
 9. Activate new environment:
+    ```
     <name_of_environment>\Scripts\activate
+    ```
 
 10. Now navigate to folder where you have extracted downloaded project from gitHub and run commands:
-    
-    `npm install`
-    `npm update`
+    ```
+    npm install
+    ```
+    ```
+    npm update
+    ```
 
 11. Run npm server
-
+    ```
     npm start
+    ```
 
 12. Open demo by pressing: o + Enter
